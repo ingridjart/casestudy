@@ -9,15 +9,37 @@ body{
         color: rgb(22, 133, 132);
     }
 
-.navbar{
+.portal{
+    background-color: rgb(251, 230, 180);
+    border-top-style: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+
+}
+
+header{
+    img{
+        max-width: 30%;
+    }
+    display: inline; 
+}
+
+nav{
     list-style: none;
     display: inline;
-
 }
 
 .stats{
     display: inline-flex; 
     text-align: center;
+}
+
+.media{
+    img{
+        max-width: 70%;
+        margin: auto; 
+    }
 }
 
 .volunteers, .delivered, .agencies{
@@ -31,9 +53,10 @@ body{
     align-items: center; 
     text-align: center;
     padding-bottom: 50px; 
+    img{ max-width: 50%;
+        
+    }
 }
-
-
 
 .light-pink-button{
     background-color: rgb(255, 241, 247);
@@ -90,6 +113,10 @@ footer{
     color: white; 
     padding-top: 30px; 
     margin-top: 30px;
+    img{
+        max-width: 40%;
+        margin: auto;
+    }
 }
 
 .contact{
