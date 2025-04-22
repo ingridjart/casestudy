@@ -18,11 +18,12 @@ body{
 
 }
 
-header{
+.main-intro{
     img{
         max-width: 30%;
     }
-    display: inline; 
+display: inline-flex; 
+    
 }
 
 nav{
