@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    margin: 0; 
 }
 
 
@@ -10,15 +11,28 @@ body{
 
 .navbar{
     list-style: none;
-    display: inline-flex; 
+    display: inline;
 
 }
+
+.stats{
+    display: inline-flex; 
+    text-align: center;
+}
+
+.volunteers, .delivered, .agencies{
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
 
 .does{
     display: inline-flex; 
     align-items: center; 
     text-align: center;
-    }
+    padding-bottom: 50px; 
+}
+
 
 
 .light-pink-button{
@@ -66,11 +80,24 @@ body{
     text-align: center;
 }
 
+.donate, .volunteer, .parter{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 footer{
-    margin-left: 0;
-    margin-right: 0;
     background-color: rgb(22, 133, 132);
     color: white; 
-    padding top: 30px; 
+    padding-top: 30px; 
+    margin-top: 30px;
+}
 
+.contact{
+    text-decoration: underline;
+    border-style: solid;
+    border-color: white; 
+    border-left: none;
+    border-right: none; 
+    padding-top: 40px;
+    padding-bottom: 40px; 
 }
