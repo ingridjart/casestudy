@@ -163,6 +163,10 @@ background-color: rgb(255, 241, 247);
 
 }
 
+.white{
+    display: inline-flex; 
+}
+
 .white-button{
     background-color: white;
     color: rgb(255, 117, 177);
@@ -177,14 +181,19 @@ background-color: rgb(255, 241, 247);
 
 }
 
+
+
 .action{
     display: inline-flex;
     text-align: center;
-}
-
-.donate, .volunteer, .parter{
-    padding-left: 40px;
-    padding-right: 40px;
+    
+    p{
+        max-width: 240px;
+        align-items: flex-start;
+        padding-bottom: 75px;
+        line-height: 30px;
+        font-weight: lighter;    
+    }
 }
 
 footer{
