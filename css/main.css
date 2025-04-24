@@ -167,6 +167,8 @@ background-color: rgb(255, 241, 247);
 }
 
 .white-button{
+    display: inline-flex;
+    justify-content: center;
     background-color: white;
     color: rgb(255, 117, 177);
     text-align: center;
@@ -177,14 +179,13 @@ background-color: rgb(255, 241, 247);
     padding-left: 50px;
     padding-right: 50px;
     max-width: 70px;
-
 }
-
 
 
 .action{
     display: inline-flex;
     text-align: center;
+    margin-left: 140px;
 
     p{
         max-width: 240px;
@@ -195,6 +196,12 @@ background-color: rgb(255, 241, 247);
     }
 }
 
+.donate, .volunteer, .partner{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
 footer{
     background-color: rgb(22, 133, 132);
     color: white; 
@@ -202,8 +209,8 @@ footer{
     margin-top: 30px;
     margin-bottom: 0; 
     img{
-        max-width: 30%; 
-        margin-left: 450px;
+        max-width: 20%; 
+        margin-left: 500px;
     }
 }
 
