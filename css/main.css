@@ -1,5 +1,11 @@
 body{
-    font-family: sans-serif;
+
+        font-family: sans-serif;
+       
+      
+      
+      
+   
     margin: 0; 
 }
 
@@ -7,6 +13,11 @@ body{
     h1{
         text-align: center;
         color: rgb(22, 133, 132);
+    }
+
+    h2{
+        text-align: center;
+        
     }
 
     .intro{
@@ -59,7 +70,7 @@ background-color: rgb(255, 241, 247);
     padding-left: 50px;
     padding-right: 50px;
     max-width: 400px;
-    max-height: 20px;
+    height: 20px;
 }
 
 .two-buttons{
@@ -95,21 +106,43 @@ background-color: rgb(255, 241, 247);
     margin-left: 5px;
 }
 
+.cake-images{
+    margin: 0;
+    padding: 25px;
+    img{
+    display: inline-flex;
+    max-width: 15%;
+    justify-content: space-between;
+}
+}
+
 .stats{
     display: inline-flex; 
     text-align: center;
     border-bottom-style: solid;
     border-bottom-color: black; 
-    margin: 0; 
+    margin-bottom: 50px; 
+    padding-bottom: 50px;
 }
 
 .media{
+
+    h2{
+        color: rgb(255, 117, 177);
+        
+            font-family: "Allura", cursive;
+            font-weight: 400;
+            font-style: normal;
+          
+        }
+          }
+    
     img{
         display: block; 
         margin: auto; 
         max-width: 80%; 
     }
-}
+
 
 .volunteers, .delivered, .agencies{
     padding-left: 40px;
@@ -142,7 +175,9 @@ background-color: rgb(255, 241, 247);
     padding-bottom: 10px; 
     padding-left: 50px;
     padding-right: 50px;
+    height: 20px;
     max-width: 320px;
+
 
 }
 
@@ -155,6 +190,7 @@ background-color: rgb(255, 241, 247);
     padding-bottom: 10px; 
     padding-left: 50px;
     padding-right: 50px;
+    height: 20px;
     max-width: 310px;
     margin: auto;
     text-align: center;
@@ -164,21 +200,31 @@ background-color: rgb(255, 241, 247);
 
 .white{
     display: inline-flex; 
+    justify-content: space-between;
+    text-align: justify
+    align-items: flex-start;
+    margin-left: 150px;
+    padding-bottom: 80px;
+
 }
 
 .white-button{
-    display: inline-flex;
-    justify-content: center;
+    display: inline;
     background-color: white;
-    color: rgb(255, 117, 177);
     text-align: center;
+    margin: auto; 
+    color: hotpink;
     border-style: none;
     border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
+    padding-top: 20px;
+    padding-bottom:20px; 
     padding-left: 50px;
     padding-right: 50px;
-    max-width: 70px;
+    text-wrap: wrap;
+    height: 20px;
+    width: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 
@@ -208,6 +254,7 @@ footer{
     padding-top: 30px; 
     margin-top: 30px;
     margin-bottom: 0; 
+    margin-right: 0;
     img{
         max-width: 20%; 
         margin-left: 500px;
@@ -215,6 +262,9 @@ footer{
 }
 
 .contact{
+    margin-left: 50px;
+    margin-right: 50px;
+    
     text-decoration: underline;
     border-style: solid;
     border-color: white; 
@@ -224,7 +274,24 @@ footer{
     padding-bottom: 40px; 
 }
 
+.social-media{
+    
+        max-width: 40%;
+        display: inline-flex;
+        
+    }
+
+
+
 .legal{
+    
+    margin-left: 50px;
+    margin-right: 50px;
     display: inline-flex; 
     justify-content: space-between;
+    align-items: flex-start;
+
+    .privacy, .kit{
+        text-decoration: underline;
+    }
 }
