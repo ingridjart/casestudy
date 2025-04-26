@@ -151,6 +151,7 @@ background-color: rgb(255, 241, 247);
     border-top-color: black;
     margin-top: 40px; 
     padding-top: 50px; 
+}
 
 .does{
     display: inline-flex; 
@@ -159,16 +160,15 @@ background-color: rgb(255, 241, 247);
     padding-bottom: 50px; 
     
     p{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
     }
 
-    
-    img{ max-width: 60%;
+    img{ max-width: 20%;
         align-items: flex-end; 
         }  
     }
-}
+
 
 .light-pink-button{
     background-color: rgb(255, 241, 247);
@@ -268,7 +268,6 @@ footer{
 .contact{
     margin-left: 50px;
     margin-right: 50px;
-    
     text-decoration: underline;
     border-style: solid;
     border-color: white; 
@@ -279,9 +278,7 @@ footer{
 }
 
 .social-media{
-    
         max-width: 40%;
-        
     }
 
 .legal{
