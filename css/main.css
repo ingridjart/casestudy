@@ -74,6 +74,7 @@ background-color: rgb(255, 241, 247);
 .two-buttons{
     display: inline-flex; 
     justify-content: center;  
+    margin-left: 200px;
 }
 
 .donate-hot-pink{
