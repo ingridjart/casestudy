@@ -304,26 +304,33 @@ footer{
     border-left: none;
     border-right: none; 
     padding-top: 40px;
-    padding-bottom: 40px; 
-}
+    padding-bottom: 40px;
+} 
+
 
 .social-media{
-        max-width: 30%;
-        display: flex; 
-        
+display: inline-flex;
+justify-content: flex-end;
+align-items: flex-end;
+img{
+    max-width: 60px;
+}
+}
 
-    
-    }
 
 .legal{
     
     margin-left: 50px;
     margin-right: 50px;
     display: inline-flex; 
-    justify-content: space-between;
-    align-items: flex-start;
 
-    .privacy, .kit{
+    .privacy{
         text-decoration: underline;
+        padding-left: 410px;
+    }
+
+    .kit{
+text-decoration: underline;
+padding-left: 10px;
     }
 }
