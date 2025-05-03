@@ -10,6 +10,12 @@ a:link{
     text-decoration: none;
 }
 
+a: visted{
+    color: white;
+    background-color: transparent;
+    text-decoration: none; 
+}
+
     h1{
         text-align: center;
         color: rgb(22, 133, 132);
