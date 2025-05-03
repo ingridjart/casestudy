@@ -238,25 +238,45 @@ img{
 .white{
     display: flex;
     justify-content: space-between;
-    text-align: justify;
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
     padding-bottom: 80px;
 }
 
-.white-button{
-    display: inline;
+.white-d-button, .white-p-button{
+    display: flex;
     background-color: white;
     text-align: center;
-    margin: auto; 
+    align-items: center;
+    margin: auto;
     color: hotpink;
     border-style: none;
     border-radius: 30px;
-    padding-top: 20px;
-    padding-bottom:20px; 
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 20px;
+    width: 80px;
+    margin-left: 60px;
+    row-gap: 30px;
+    font-size: large;
+}
+
+.white-v-button{
+    display: flex;
+    background-color: white;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    color: hotpink;
+    border-style: none;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 20px;
     width: 80px;
     margin-left: 60px;
