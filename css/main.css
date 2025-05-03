@@ -319,12 +319,15 @@ footer{
     border-right: none; 
     padding-top: 40px;
     padding-bottom: 40px;
+}
 
     .social-media{
-        display: inline-flex; 
-    }
-}
-} 
+            display: inline-grid;
+            grid-template-rows: 1;
+            grid-template-columns: 20px, 20px, 20px;
+        }
+    
+
 
 
 
