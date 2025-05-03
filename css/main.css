@@ -321,16 +321,32 @@ footer{
     padding-bottom: 40px;
 }
 
-    .social-media{
-            display: inline-grid;
-            grid-template-rows: 1;
-            grid-template-columns: 20px, 20px, 20px;
-        }
+.fb{
+    max-width: 40%;
+    float: right; 
+    margin-right: 200px;
+    margin-top: -90px; 
+    margin-bottom: -5px;
+}
     
 
+.x{
+        max-width: 40%;
+        float: right; 
+        margin-top: -90px;
+        margin-right: 300px;
+        margin-bottom: 40px;
+    }
 
-
-
+.insta{
+    max-width: 40%;
+    float: right;
+    margin-top: -90px;
+    margin-right: 400px; 
+    margin-top: -135px;
+    
+}
+    
 .legal{
     
     margin-left: 50px;
